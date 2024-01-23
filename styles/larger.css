@@ -1,0 +1,11 @@
+.card1{
+    color: rgb(228,188,109);
+    border: 1px solid rgb(228,188,109);
+    grid-column: 1;
+    grid-row: 1/2;
+}
+.card2{
+    color: rgb(228,188,109);
+    border: 1px solid rgb(228,188,109);
+    grid-column: 2;
+}

@@ -1,0 +1,61 @@
+
+.home-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+    height: 2em;
+    text-align: center;
+    column-gap: 1em;
+}
+.button{
+transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: white;
+}
+.home-bar a{
+    font-size: large;
+    font-weight: 800;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(228,188,109);
+    
+}
+main{
+    background-color: #3D1625;
+}
+.container{
+    width: fit-content;
+    border: 1px solid rgb(228,188,109);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(130,16,53);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+img{
+    height: auto; 
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 800;
+    color: rgb(228,188,109);
+}
+.card_container{
+    border: 1px solid rgb(228,188,109);
+    display: grid;
+    grid-template-columns: 2;
+    grid-row: 1;
+}
+.card1{
+    color: rgb(228,188,109);
+    border: 1px solid rgb(228,188,109);
+}
+.card2{
+    color: rgb(228,188,109);
+    border: 1px solid rgb(228,188,109);
+
+}
